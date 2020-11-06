@@ -91,8 +91,13 @@
     position: inherit;
   }
   /* //컨테이너영역 */
-  
-
+  /* 모바일+PC공통 슬라이드 영역 */
+  ul.viewImgList li {
+    text-align: center;
+    height: 550px;
+    background-size: 100% 550px;
+  }
+  /* //모바일+PC공통 슬라이드 영역 */
   /* 겔러리 최근게시물 */
   .about_area h2 {
     padding: 55px 0 105px;
