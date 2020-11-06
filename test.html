@@ -5,7 +5,7 @@
         <script src="./js/jquery-1.11.3.min.js"></script>
         <script>
         $(document).ready(function(){
-            $("#addElement").click(function(){
+           /*  $("#addElement").click(function(){
                 $(document.body).css("background", "green");
                 // $("<div><p>내부추가</p></div>").appendTo(this);
                 //$(타겟).append("타겟 내부 Next 다음에 추가할 내용");
@@ -14,6 +14,9 @@
                 $(this).after("<div><p>외부추가</p></div>")
                 var count = $("div").length;
                 alert("div태그의 개수는" + count + "개 입니다.");
+            }); */
+            $("#addElement").bind("click",function(){
+                alert('버튼 클릭 이벤트 방식2');
             });
         });
         //context 영역의 내용을 말합니다.
