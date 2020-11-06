@@ -222,7 +222,7 @@ header {
     background: url(../img/slide_03.jpg) no-repeat;
   }
   .roll_content {
-    position: relative;
+    position: static;
   }
   .roll_content .roll_txtline {
     position: absolute;
