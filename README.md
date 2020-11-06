@@ -4,6 +4,15 @@
 - 파이어폭스 개발자도구의 스타일 탭사용
 - 기존 PC용 > 태블릿용 > 모바일용 CSS작업순서를 [모바일용 > 태블릿용 > PC용] 으로 변경작업
 #### 20201106(금)
+- 슬라이드: 모바일, PC용이 분리가 되어있음. (신경써서 만들때)
+- 슬라이드를 모바일 + PC용 공통으로 사용하도록 통일. (신경안쓰고, 1개로 만들때)
+- 프로그램/데이터베이스 작업 시 한글폴더사용은 에러발생하기 때문에 영문폴더에 하셔야 합니다.
+- vscode, 이클립스 IDE(통합개발환경)에서 깃 푸시가 안될 때, 
+- IDE환경에서는 강제로 푸시하는 다음 명령이 없습니다. git push origin master --force
+- 그래서, command line 하시는 겁니다. (아래처럼)
+- git remote add origin 리모트깃주소
+- git push origin master --force
+- 강제푸시 (http://blog.daum.net/web_design/734)
 - $("타겟").bind("이벤트click",콜백함수{구현}): 바인딩(묶는다는 의미);
 - 집에 있는 PC에서 깃자료를 다운로드 받는 방법
 - git clone (https://github.com/qaz5344.github.io)
